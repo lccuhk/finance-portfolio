@@ -8,7 +8,7 @@ import Guide from '@/pages/Guide';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/finance-portfolio">
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
